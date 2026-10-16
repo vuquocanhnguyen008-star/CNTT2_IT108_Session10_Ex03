@@ -1,0 +1,18 @@
+## Bài 3: Giảm chi phí vận hành Chatbot AI
+### Phần 1: Phân tích bài toán
+* **Cơ chế Token của AI**: LLM (Large Language Model) chia văn bản thành các đoạn nhỏ gọi là *token* dựa trên số lượng ký tự và từ vựng.
+* **Lý do Markdown giúp AI xử lý nhanh hơn**: Markdown sử dụng cú pháp gọn nhẹ, ít ký tự thừa (ví dụ in đậm chỉ dùng dấu sao `**`). Ngược lại, HTML dùng các thẻ dài và rườm rà (ví dụ `<strong>...</strong>`). Việc dùng Markdown giúp **giảm đáng kể số lượng token**, từ đó tiết kiệm chi phí vận hành API và tăng tốc độ phản hồi cho hệ thống Chatbot nông nghiệp.
+
+### Phần 2: So sánh & Đánh giá
+| Tiêu chí | Markdown | HTML |
+| --- | --- | --- |
+| **Số lượng ký tự (VD: In đậm)** | Ngắn gọn, tối ưu (Ví dụ: `**chữ**`).
+ | Dài dòng, tốn ký tự (Ví dụ: `<strong>chữ</strong>`).
+ |
+| **Độ dễ đọc (Human-readable)** | Cực kỳ trực quan, dễ đọc đối với người dùng phổ thông như nông dân.
+ | Rườm rà, khó đọc, lẫn nhiều mã lệnh kỹ thuật.
+ |
+| **Hiệu quả xử lý của AI** | Ít token, tốc độ xử lý nhanh, tiết kiệm chi phí.
+ | Nhiều token, tốn kém chi phí, tốc độ phản hồi chậm hơn.
+* **Giải pháp tối ưu cho hệ thống "GreenTech"**: Lựa chọn định dạng **Markdown**.
+* **Lý do**: Giúp tiết kiệm chi phí vận hành Token cho hệ thống AI, đồng thời đảm bảo tính trực quan, thân thiện (Human-readable) giúp người nông dân dễ dàng nắm bắt thông tin trả lời.
